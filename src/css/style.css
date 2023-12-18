@@ -1,0 +1,463 @@
+body {
+	background-color: rgb(0, 255, 157);
+	background-size: cover;
+	margin: 0px;
+}
+
+#gamesImageBanner {
+	height: 500px;
+	width: 1100px;
+	opacity: 0.23;
+	position: absolute;
+	z-index: 1;
+}
+
+#dragonBallZpic {
+	width: 1100px;
+	height: 320px;
+	z-index: -1;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 55px;
+	font-weight: bold;
+	font-family: Impact;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	text-decoration: none;
+	float: right;
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	right: 20px;
+}
+
+#logo {
+	color: #ffffff;
+	font-size: 55px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 125px;
+	font-family: Impact, sans-serif;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	text-decoration: none;
+}
+
+#header {
+	height: 70px;
+	width: 1300px;
+	margin: 0 auto;
+	background: rgb(132, 0, 255);
+	position: relative;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#main-nav {
+	float: left;
+	margin-left: 30px;
+
+}
+
+#main-nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-nav li {
+	display: inline;
+}
+
+#main-nav li a {
+	display: inline-block;
+	width: 130px;
+	height: 45px;
+	background-color: rgb(132, 0, 255);
+	text-align: center;
+	color: #fff;
+	padding-top: 24px;
+	font-size: 21px;
+	font-family: Impact, sans-serif;
+	text-decoration: none;
+}
+
+#main-nav li a:hover {
+	background-color: #720ab8;
+	transition: 0.15s;
+}
+
+
+.image-text {
+	position: absolute;
+	z-index: 3;
+	left: 50px;
+}
+
+.image-text p {
+	font-size: 24px;
+	position: absolute;
+	left: 15px;
+}
+
+#bannerHomePage {
+	position: relative;
+	height: 320px;
+	width: 1100px;
+	background-color: darkblue;
+	margin: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	overflow: hidden;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-family: Impact, sans-serif;
+	text-align: left;
+}
+
+#platform-container ul {
+	list-style: none;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 30px;
+}
+
+#platform-container li {
+	display: inline;
+	justify-content: center;
+	padding-left: 80px;
+}
+
+#platform-container li a {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin: 0 auto;
+	width: 250px;
+	height: 150px;
+	background-color: rgb(132, 0, 255);
+	color: #fff;
+	font-size: 40px;
+	font-family: Impact, sans-serif;
+	text-decoration: none;
+	border-radius: 10px;
+	border: 2px solid #fff;
+	line-height: 30px;
+	text-align: center;
+	line-height: 140px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+#platform-container li a:hover {
+	background-color: rgb(83, 0, 160);
+}
+
+#footer-part {
+	width: 100%;
+	height: 50px;
+	font-size: 21px;
+	line-height: 45px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(133, 130, 130, 0.774);
+	font-family: Verdana;
+	color: rgba(0, 0, 0, 0.521);
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+}
+
+.category-image {
+	width: 200px;
+	height: 200x;
+	margin: 0 auto;
+	float: left;
+	margin-left: 50px;
+}
+
+
+/*KEEP THIS FOR CATEGORY IMAGES*/
+.category-last-image {
+	width: 150px;
+	height: 150x;
+	margin: 0 auto;
+	float: right;
+	margin-top: 10px;
+	margin-right: 73px;
+}
+
+.banner-image {
+	height: 360px;
+	width: 200px;
+	margin: 0 auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	float: left;
+	line-height: 8em;
+}
+
+.product-item {
+	padding: 5px;
+	width: calc(20% - 26px);
+	height: 410px;
+	font-size: 14px;
+	float: left;
+	margin: 5px;
+	display: block;
+	border: 3px solid red;
+	font-family: Impact;
+	text-align: center;
+	background-color: rgb(120, 1, 255);
+	margin-bottom: 20px;
+	border-radius: 10px;
+	position: relative;
+	color: white;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+
+/*the image withing the div*/
+.product-item img {
+	width: 100%;
+	height: 75%;
+}
+
+input[type='submit'] {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	background-color: red;
+	border-radius: 10px;
+	width: 75%;
+	float: left;
+	z-index: 2;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-background-color: rgb(255, 255, 255);
+	border: 2px solid #fff;
+	margin-top: 5px;
+}
+
+input[type='submit']:hover {
+	background-color: rgb(197, 0, 0);
+	cursor: pointer;
+}
+
+input[type='checkbox']:hover {
+	background-color: rgb(197, 0, 0);
+}
+
+.game-priceTag {
+	background-color: rgb(255, 0, 21);
+	color: white;
+	width: 90px;
+	height: 45px;
+	float: right;
+	position: absolute;
+	bottom: 100px;
+	right: 5px;
+	font-size: 30px;
+	z-index: 1;
+	text-align: center;
+	line-height: 39 px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border: 2px solid #fff;
+}
+
+#main-container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*checkout page table*/
+#checkout-table {
+	border-collapse: collapse;
+	border: 1.5px solid black;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	top: 25px;
+	margin-bottom: 50px;
+	font-family: Impact;
+
+}
+
+#checkout-table thead th {
+	background-color: rgb(104, 0, 202);
+	padding: 15px;
+	font-size: 32px;
+	color: #fff;
+	font-family: Impact;
+	-webkit-text-stroke: 0.5px black;
+}
+
+#checkout-table tbody td {
+	border: 1.5px solid black;
+	padding: 9px;
+	font-size: 26px;
+	background-color: rgb(229, 255, 0);
+	font-family: Impact;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+	color: #fff;
+	text-align: center;
+}
+
+#checkout-table tfoot {
+	background-color: rgb(65, 255, 65);
+	font-family: Impact;
+	font-weight: bold;
+	-webkit-text-stroke: 0.5px black;
+	color: #fff;
+}
+
+#checkout-table tfoot tr {
+	text-align: right;
+	font-size: 23px;
+	border: 1px solid black;
+}
+
+.table-total-text {
+	color: white;
+	font-size: 27px;
+	float: left;
+}
+
+input[type='checkbox'] {
+	position: absolute;
+	right: 3px;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+}
+
+#order-button {
+	position: absolute;
+	top: 61px;
+	right: 20px;
+	background-color: rgb(255, 0, 0);
+	color: white;
+	width: 80px;
+	height: 72px;
+	float: left;
+	font-family: 'Trebuchet MS';
+	font-size: 23px;
+	font-weight: bold;
+	border-radius: 10px;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+
+#clear-button {
+	position: absolute;
+	top: 61px;
+	right: 20px;
+	background-color: rgb(255, 0, 0);
+	color: white;
+	width: 80px;
+	height: 72px;
+	float: left;
+	font-family: 'Trebuchet MS';
+	font-size: 23px;
+	font-weight: bold;
+	border-radius: 10px;
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: black;
+}
+
+#order-button:hover {
+	background-color: rgb(207, 0, 0);
+}
+
+#clear-button:hover {
+	background-color: rgb(207, 0, 0);
+}
+
+.banner-page-2 {
+	position: relative;
+	height: 500px;
+	width: 1100px;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-right: 3px solid #fff;
+	margin: auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	overflow: hidden;
+	font-size: 50px;
+	color: rgb(255, 255, 255);
+	font-family: Impact, sans-serif;
+	text-align: left;
+	background-color: #4d0ab8;
+}
+
+#contact-form-container {
+	height: 100%;
+	width: 50%;
+	float: right;
+}
+
+.contact-form {
+	padding: 50px;
+	font-size: 35px;
+	text-align: center;
+	height: 100%;
+}
+
+
+.contact-form input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.contact-form textarea {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+.contact-form button {
+	padding: 12px 20px;
+	margin: 8px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+#contact-page-text {
+	float: left;
+	font-size: 30px;
+	color: white;
+	margin-top: 70px;
+	margin-left: 2px;
+}
+
+#header-contact-page {
+	float: left;
+	position: absolute;
+	left: 30px;
+}
